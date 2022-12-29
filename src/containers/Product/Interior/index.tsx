@@ -14,7 +14,7 @@ interface CarProps {
   };
 }
 
-export default function Exterior(props: CarProps) {
+export default function Interior(props: CarProps) {
   const {carDetail} = props.route.params;
   return (
     <View className="flex flex-1 bg-[#f2f5f8]">

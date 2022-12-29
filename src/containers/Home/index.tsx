@@ -11,6 +11,7 @@ const Home = () => {
     (state: {car: CarState}) => state.car,
   );
   useMemo(() => fetchCars()(dispatch), [dispatch]);
+
   return (
     <View className="bg-[#f1f4f8] flex-1">
       <HeaderAvatar />
@@ -24,9 +25,8 @@ const Home = () => {
   );
 };
 interface MainContentProps extends CarState {}
-function MainContent(props: MainContentProps) {
-  const colors = ['#D4D4D4', 'gray', '#23398A', '#AF4A4A'];
-
+const colors = ['#D4D4D4', 'gray', '#23398A', '#AF4A4A'];
+const MainContent = (props: MainContentProps) => {
   return (
     <View>
       {props.loading && (
@@ -40,12 +40,17 @@ function MainContent(props: MainContentProps) {
         </View>
       )}
       {props.data.map((car, index) => (
-        <Card key={car.model} carDetail={car} background={colors[index]} />
+        <Card
+          testID="main-content"
+          key={car.model}
+          carDetail={car}
+          background={colors[index]}
+        />
       ))}
 
       <View className="h-8" />
     </View>
   );
-}
+};
 
 export default Home;

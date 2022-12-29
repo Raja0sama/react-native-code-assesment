@@ -7,8 +7,9 @@ import {CarData} from '@global/reducers/cars';
 interface CardProps {
   background: string;
   carDetail: CarData;
+  testID: string;
 }
-export const Card = ({background, carDetail}: CardProps) => {
+export const Card = ({background, carDetail, testID}: CardProps) => {
   const navigation = useNavigation();
   const PRODUCT = 'PRODUCT';
   return (
@@ -18,7 +19,7 @@ export const Card = ({background, carDetail}: CardProps) => {
       }
       style={{backgroundColor: background}}
       className={' rounded-2xl relative mt-3'}>
-      <View className="items-center flex  pb-10">
+      <View data-testID={testID} className="items-center flex  pb-10">
         <Image
           className=" w-full h-[170px]"
           resizeMode={'contain'}

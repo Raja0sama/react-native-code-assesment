@@ -50,6 +50,7 @@ export const fetchCars = () => async (dispatch: Function) => {
     dispatch(fetchCarStart());
     const response = await fetch('http://10.0.2.2:8080/cars');
     const cars = await response.json();
+    console.log({cars});
     dispatch(fetchCarSuccess(cars));
   } catch (error: any) {
     dispatch(fetchCarError(error.message));

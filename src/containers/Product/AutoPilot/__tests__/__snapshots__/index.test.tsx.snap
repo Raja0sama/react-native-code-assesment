@@ -1,0 +1,369 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AutoPilot renders correctly 1`] = `
+<View
+  style={
+    [
+      {
+        "display": "flex",
+      },
+      {
+        "flexBasis": "0%",
+        "flexGrow": 1,
+        "flexShrink": 1,
+      },
+      {
+        "backgroundColor": "#f2f5f8",
+      },
+    ]
+  }
+>
+  <View
+    accessibilityIgnoresInvertColors={true}
+    style={
+      [
+        {
+          "paddingLeft": 36,
+          "paddingRight": 36,
+        },
+        {
+          "paddingBottom": 36,
+          "paddingTop": 36,
+        },
+        {
+          "flexBasis": "0%",
+          "flexGrow": 1,
+          "flexShrink": 1,
+        },
+      ]
+    }
+  >
+    <Image
+      source={
+        {
+          "testUri": "../../../src/assets/auto-pilot.png",
+        }
+      }
+      style={
+        [
+          {
+            "bottom": 0,
+            "left": 0,
+            "position": "absolute",
+            "right": 0,
+            "top": 0,
+          },
+          {
+            "height": undefined,
+            "width": undefined,
+          },
+          undefined,
+        ]
+      }
+    />
+  </View>
+  <View>
+    <View
+      style={
+        [
+          {
+            "backgroundColor": "#fff",
+          },
+          {
+            "paddingBottom": 40,
+            "paddingTop": 40,
+          },
+          {
+            "paddingLeft": 36,
+            "paddingRight": 36,
+          },
+          {
+            "borderTopLeftRadius": 36,
+            "borderTopRightRadius": 36,
+          },
+        ]
+      }
+    >
+      <Text
+        style={
+          [
+            {
+              "paddingBottom": 20,
+            },
+            {
+              "color": "#A4B0BC",
+            },
+            {
+              "fontSize": 20,
+              "lineHeight": 28,
+            },
+            {
+              "fontFamily": "Nunito-Regular",
+            },
+          ]
+        }
+      >
+        Autopilot
+      </Text>
+      <View
+        style={
+          [
+            {
+              "flexDirection": "row",
+            },
+            {
+              "justifyContent": "space-between",
+            },
+          ]
+        }
+      >
+        <View
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            {
+              "opacity": 1,
+            }
+          }
+        >
+          <View
+            style={
+              {
+                "flex": 1,
+              }
+            }
+          >
+            <Text
+              style={
+                [
+                  {
+                    "fontSize": 24,
+                    "lineHeight": 32,
+                  },
+                  {
+                    "color": "#000",
+                  },
+                ]
+              }
+            >
+              Autopilot
+            </Text>
+            <Text
+              style={
+                [
+                  {
+                    "fontFamily": "Nunito-Regular",
+                  },
+                  {
+                    "fontSize": 20,
+                    "lineHeight": 28,
+                  },
+                  {
+                    "color": "#D01000",
+                  },
+                ]
+              }
+            >
+              AED 
+              14,000
+            </Text>
+          </View>
+        </View>
+        <View
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            {
+              "opacity": 1,
+            }
+          }
+        >
+          <View
+            style={
+              {
+                "flex": 0,
+              }
+            }
+          >
+            <Text
+              style={
+                [
+                  {
+                    "fontSize": 24,
+                    "lineHeight": 32,
+                  },
+                  {
+                    "color": "#929395",
+                  },
+                ]
+              }
+            >
+              Full self-driving
+            </Text>
+            <Text
+              style={
+                [
+                  {
+                    "fontFamily": "Nunito-Regular",
+                  },
+                  {
+                    "fontSize": 20,
+                    "lineHeight": 28,
+                  },
+                  {
+                    "color": "#dee3e8",
+                  },
+                ]
+              }
+            >
+              AED 
+              28,000
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        style={
+          [
+            {
+              "paddingBottom": 20,
+              "paddingTop": 20,
+            },
+          ]
+        }
+      >
+        <Text
+          style={
+            [
+              {
+                "fontFamily": "Nunito-Regular",
+              },
+              {
+                "fontSize": 16,
+                "lineHeight": 24,
+              },
+              {
+                "color": "#979797",
+              },
+            ]
+          }
+        >
+          Atomatic driving from highway on-ramp to off-ramp including interchanges and overtaking slower cars.
+        </Text>
+      </View>
+      <View
+        style={
+          [
+            {
+              "flexDirection": "row",
+            },
+            {
+              "alignItems": "center",
+            },
+            {
+              "justifyContent": "space-between",
+            },
+          ]
+        }
+      >
+        <Text
+          style={
+            [
+              {
+                "fontSize": 24,
+                "lineHeight": 32,
+              },
+              {
+                "color": "#000",
+              },
+              {
+                "fontFamily": "Nunito-Regular",
+              },
+              {
+                "flexBasis": "0%",
+                "flexGrow": 1,
+                "flexShrink": 1,
+              },
+            ]
+          }
+        >
+          AED 
+          184,000
+        </Text>
+        <View
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            {
+              "alignItems": "center",
+              "borderBottomColor": "#D01000",
+              "borderBottomLeftRadius": 9999,
+              "borderBottomRightRadius": 9999,
+              "borderBottomWidth": 2,
+              "borderLeftColor": "#D01000",
+              "borderLeftWidth": 2,
+              "borderRightColor": "#D01000",
+              "borderRightWidth": 2,
+              "borderTopColor": "#D01000",
+              "borderTopLeftRadius": 9999,
+              "borderTopRightRadius": 9999,
+              "borderTopWidth": 2,
+              "display": "flex",
+              "flexBasis": "0%",
+              "flexGrow": 1,
+              "flexShrink": 1,
+              "justifyContent": "center",
+              "opacity": 1,
+              "paddingBottom": 12,
+              "paddingTop": 12,
+            }
+          }
+        >
+          <Text
+            style={
+              [
+                {
+                  "fontFamily": "Nunito-Regular",
+                },
+                {
+                  "fontSize": 20,
+                  "lineHeight": 28,
+                },
+                {
+                  "color": "#000",
+                },
+              ]
+            }
+          >
+            Next
+          </Text>
+        </View>
+      </View>
+    </View>
+  </View>
+</View>
+`;

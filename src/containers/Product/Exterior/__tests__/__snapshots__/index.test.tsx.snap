@@ -1,0 +1,454 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Exterior renders correctly 1`] = `
+<View
+  style={
+    [
+      {
+        "display": "flex",
+      },
+      {
+        "flexBasis": "0%",
+        "flexGrow": 1,
+        "flexShrink": 1,
+      },
+      {
+        "backgroundColor": "#f2f5f8",
+      },
+    ]
+  }
+>
+  <View
+    style={
+      [
+        {
+          "paddingLeft": 36,
+          "paddingRight": 36,
+        },
+        {
+          "paddingBottom": 36,
+          "paddingTop": 36,
+        },
+        {
+          "flexBasis": "0%",
+          "flexGrow": 1,
+          "flexShrink": 1,
+        },
+        {
+          "flexDirection": "column",
+        },
+        {
+          "justifyContent": "space-between",
+        },
+      ]
+    }
+  >
+    <Text
+      style={
+        [
+          {
+            "paddingBottom": 40,
+          },
+          {
+            "color": "#A4B0BC",
+          },
+          {
+            "fontSize": 20,
+            "lineHeight": 28,
+          },
+          {
+            "fontFamily": "Nunito-Regular",
+          },
+        ]
+      }
+    >
+      Select Color
+    </Text>
+    <View
+      style={
+        [
+          {
+            "alignItems": "center",
+          },
+          {
+            "flexBasis": "0%",
+            "flexGrow": 1,
+            "flexShrink": 1,
+          },
+        ]
+      }
+    >
+      <Image
+        resizeMode="contain"
+        source={
+          {
+            "uri": "https://static-assets.tesla.com/configurator/compositor?context=design_studio_2&options=$MT322,$PPSW,$W40B,$IBB1&view=STUD_FRONT34&model=m3&size=1920&bkba_opt=1&crop=1300,500,300,300&version=v0121-459f1b30d202212210637",
+          }
+        }
+        style={
+          [
+            {
+              "width": 750,
+            },
+            {
+              "height": "100%",
+            },
+          ]
+        }
+      />
+    </View>
+    <View
+      style={
+        [
+          {
+            "flexBasis": "0%",
+            "flexGrow": 1,
+            "flexShrink": 1,
+          },
+          {
+            "marginTop": 20,
+          },
+        ]
+      }
+    >
+      <Text
+        style={
+          [
+            {
+              "fontFamily": "Nunito-Regular",
+            },
+            {
+              "color": "#000",
+            },
+            {
+              "fontSize": 24,
+              "lineHeight": 32,
+            },
+          ]
+        }
+      >
+        Pearl White Multi-Coat
+      </Text>
+      <Text
+        style={
+          [
+            {
+              "fontFamily": "Nunito-Regular",
+            },
+            {
+              "color": "#D01000",
+            },
+            {
+              "fontSize": 20,
+              "lineHeight": 28,
+            },
+          ]
+        }
+      >
+        Included
+      </Text>
+      <View
+        style={
+          [
+            {
+              "flexDirection": "row",
+            },
+            {
+              "justifyContent": "space-between",
+            },
+            {
+              "alignItems": "center",
+            },
+            {
+              "paddingTop": 20,
+            },
+          ]
+        }
+      >
+        <View
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            {
+              "borderColor": "red",
+              "borderRadius": 100,
+              "borderWidth": 5,
+              "opacity": 1,
+            }
+          }
+        >
+          <<View /> />
+        </View>
+        <View
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            {
+              "opacity": 1,
+            }
+          }
+        >
+          <<View /> />
+        </View>
+        <View
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            {
+              "opacity": 1,
+            }
+          }
+        >
+          <<View /> />
+        </View>
+        <View
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            {
+              "opacity": 1,
+            }
+          }
+        >
+          <<View /> />
+        </View>
+        <View
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            {
+              "opacity": 1,
+            }
+          }
+        >
+          <<View /> />
+        </View>
+      </View>
+      <View
+        style={
+          [
+            {
+              "height": 1,
+            },
+            {
+              "width": "100%",
+            },
+            {
+              "backgroundColor": "#CFD3D9",
+            },
+            {
+              "marginTop": 16,
+            },
+          ]
+        }
+      />
+    </View>
+    <View
+      style={
+        [
+          {
+            "flexBasis": "0%",
+            "flexGrow": 1,
+            "flexShrink": 1,
+          },
+          {
+            "justifyContent": "center",
+          },
+        ]
+      }
+    >
+      <Text
+        style={
+          [
+            {
+              "fontFamily": "Nunito-Regular",
+            },
+            {
+              "color": "#000",
+            },
+            {
+              "paddingBottom": 20,
+            },
+          ]
+        }
+      >
+        20’’ Performance Wheels
+      </Text>
+      <Text
+        style={
+          [
+            {
+              "fontFamily": "Nunito-Regular",
+            },
+            {
+              "color": "#000",
+            },
+          ]
+        }
+      >
+        Carbon fiber spoiler
+      </Text>
+    </View>
+  </View>
+  <View>
+    <View
+      style={
+        [
+          {
+            "backgroundColor": "#fff",
+          },
+          {
+            "paddingBottom": 40,
+            "paddingTop": 40,
+          },
+          {
+            "paddingLeft": 36,
+            "paddingRight": 36,
+          },
+          {
+            "borderTopLeftRadius": 36,
+            "borderTopRightRadius": 36,
+          },
+        ]
+      }
+    >
+      <View
+        style={
+          [
+            {
+              "flexDirection": "row",
+            },
+            {
+              "alignItems": "center",
+            },
+            {
+              "justifyContent": "space-between",
+            },
+          ]
+        }
+      >
+        <Text
+          style={
+            [
+              {
+                "fontSize": 24,
+                "lineHeight": 32,
+              },
+              {
+                "color": "#000",
+              },
+              {
+                "fontFamily": "Nunito-Regular",
+              },
+              {
+                "flexBasis": "0%",
+                "flexGrow": 1,
+                "flexShrink": 1,
+              },
+            ]
+          }
+        >
+          AED 
+          184000
+        </Text>
+        <View
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            {
+              "alignItems": "center",
+              "borderBottomColor": "#D01000",
+              "borderBottomLeftRadius": 9999,
+              "borderBottomRightRadius": 9999,
+              "borderBottomWidth": 2,
+              "borderLeftColor": "#D01000",
+              "borderLeftWidth": 2,
+              "borderRightColor": "#D01000",
+              "borderRightWidth": 2,
+              "borderTopColor": "#D01000",
+              "borderTopLeftRadius": 9999,
+              "borderTopRightRadius": 9999,
+              "borderTopWidth": 2,
+              "display": "flex",
+              "flexBasis": "0%",
+              "flexGrow": 1,
+              "flexShrink": 1,
+              "justifyContent": "center",
+              "opacity": 1,
+              "paddingBottom": 12,
+              "paddingTop": 12,
+            }
+          }
+        >
+          <Text
+            style={
+              [
+                {
+                  "fontFamily": "Nunito-Regular",
+                },
+                {
+                  "fontSize": 20,
+                  "lineHeight": 28,
+                },
+                {
+                  "color": "#000",
+                },
+              ]
+            }
+          >
+            Next
+          </Text>
+        </View>
+      </View>
+    </View>
+  </View>
+</View>
+`;
