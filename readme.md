@@ -25,7 +25,7 @@ To set up the project on your local machine, follow these steps:
 
 ## Quick Peak
 
-![RunningInIOSAndAndroid](https://imgur.com/pCw67vc)
+[![RunningInIOSAndAndroid](https://imgur.com/pCw67vc)](https://i.imgur.com/pCw67vc.mp4)
 
 ## FAQ's
 
