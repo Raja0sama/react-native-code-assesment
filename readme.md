@@ -25,7 +25,7 @@ To set up the project on your local machine, follow these steps:
 
 ## Quick Peak
 
-<blockquote class="imgur-embed-pub" lang="en" data-id="a/8CnJaKI" data-context="false" ><a href="//imgur.com/a/8CnJaKI"></a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
+[Imgur](https://imgur.com/pCw67vc)
 
 
 ## FAQ's
