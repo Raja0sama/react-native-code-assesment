@@ -9,9 +9,8 @@ interface ButtonProps {
 
 export const Button = ({children, navigateTo}: ButtonProps) => {
   const navigation = useNavigation();
-  const onPress = () => {
-    navigation.navigate(navigateTo);
-  };
+  const onPress = () => navigation.navigate(navigateTo as never);
+
   return (
     <TouchableOpacity
       onPress={onPress}

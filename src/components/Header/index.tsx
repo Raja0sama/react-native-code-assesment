@@ -5,13 +5,15 @@ import Back from '@assets/back-button.svg';
 import {NativeStackHeaderProps} from '@react-navigation/native-stack';
 
 const Header = ({navigation}: NativeStackHeaderProps) => {
+  const goBack = () => navigation.goBack();
+  const canGoBack = navigation.canGoBack();
   return (
     <View className={'px-8 pt-1 bg-white'}>
       <StatusBar backgroundColor="#FFFFFF" barStyle={'dark-content'} />
       <View className="justify-between items-center flex-row">
         <View>
-          {navigation.canGoBack() && (
-            <TouchableOpacity onPress={() => navigation.goBack()}>
+          {canGoBack && (
+            <TouchableOpacity onPress={goBack}>
               <Back width={16} height={16} />
             </TouchableOpacity>
           )}

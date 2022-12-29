@@ -12,11 +12,13 @@ interface CardProps {
 export const Card = ({background, carDetail, testID}: CardProps) => {
   const navigation = useNavigation();
   const PRODUCT = 'PRODUCT';
+
+  const navigateToProduct = () =>
+    navigation.navigate(PRODUCT as never, {carDetail} as never);
+
   return (
     <TouchableOpacity
-      onPress={() =>
-        navigation.navigate(PRODUCT as never, {carDetail} as never)
-      }
+      onPress={navigateToProduct}
       style={{backgroundColor: background}}
       className={' rounded-2xl relative mt-3'}>
       <View data-testID={testID} className="items-center flex  pb-10">
