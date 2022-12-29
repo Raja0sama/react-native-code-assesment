@@ -8,7 +8,6 @@ const Header = ({navigation}: NativeStackHeaderProps) => {
   return (
     <View className={'px-8 pt-1 bg-white'}>
       <StatusBar backgroundColor="#FFFFFF" barStyle={'dark-content'} />
-
       <View className="justify-between items-center flex-row">
         <View>
           {navigation.canGoBack() && (

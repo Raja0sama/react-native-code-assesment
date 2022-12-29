@@ -1,4 +1,5 @@
 import {createSlice, PayloadAction} from '@reduxjs/toolkit';
+import {Platform} from 'react-native';
 
 export interface CarData {
   model: string;
@@ -46,11 +47,12 @@ export const {fetchCarStart, fetchCarSuccess, fetchCarError} = carSlice.actions;
 export default carSlice.reducer;
 
 export const fetchCars = () => async (dispatch: Function) => {
+  const host = Platform.OS === 'ios' ? 'localhost' : '10.0.2.2';
   try {
     dispatch(fetchCarStart());
-    const response = await fetch('http://10.0.2.2:8080/cars');
+    const response = await fetch(`http://${host}:8080/cars`);
     const cars = await response.json();
-    console.log({cars});
+
     dispatch(fetchCarSuccess(cars));
   } catch (error: any) {
     dispatch(fetchCarError(error.message));
