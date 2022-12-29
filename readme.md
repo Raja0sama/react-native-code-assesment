@@ -25,7 +25,8 @@ To set up the project on your local machine, follow these steps:
 
 ## Quick Peak
 
-![RunningInIOSAndAndroid](https://i.imgur.com/pCw67vc.mp4)
+<blockquote class="imgur-embed-pub" lang="en" data-id="a/8CnJaKI" data-context="false" ><a href="//imgur.com/a/8CnJaKI"></a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
+
 
 ## FAQ's
 
